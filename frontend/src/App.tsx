@@ -11,6 +11,7 @@ function App() {
       <Navbar/>
       <Landing/>
       <Fundraiser/>
+      <Purpose/>
     </div>
   );
 }
