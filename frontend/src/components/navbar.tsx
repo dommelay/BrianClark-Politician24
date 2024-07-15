@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
                 <h1 className="mr-4 text-white font-semibold text-base md:text-lg lg:text-xl">Vision</h1>
                 <h1 className="mr-4 text-white font-semibold text-base md:text-lg lg:text-xl">About</h1>
                 <h1 className="mr-4 text-white font-semibold text-base md:text-lg lg:text-xl">Contact</h1>
-                <h1 className="mr-6 text-white font-semibold text-base md:text-lg lg:text-xl"><a href='https://www.eventbrite.com/o/brian-clark-for-supervisor-of-superior-twp-87582323563' target="_blank" rel="noopener noreferrer">Donate</a></h1>
+                <h1 className="mr-6 text-white font-semibold text-base md:text-lg lg:text-xl"><a href='https://www.paypal.com/donate/?hosted_button_id=KNPM3W83MVMSN' target="_blank" rel="noopener noreferrer">Donate</a></h1>
             </div>
         </div>
 

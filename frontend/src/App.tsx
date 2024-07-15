@@ -4,6 +4,7 @@ import Landing from './components/landing';
 import Navbar from './components/navbar';
 import Purpose from './components/purpose';
 import Fundraiser from './components/fundraiser';
+import Plan from './components/plan';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Landing/>
       <Fundraiser/>
       <Purpose/>
+      <Plan/>
     </div>
   );
 }
