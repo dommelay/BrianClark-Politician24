@@ -12,7 +12,7 @@ const Vision: React.FC = () => {
                 <div className='my-8 flex flex-row justify-center '>
                     <img className='w-1/2 'src='/images/UM.jpg' alt='Brian and Angie with University of Michigan Cheerleaders'/>
                     <div className='ml-6'>
-                        <p className='text-left font-semibold'>The greatest asset of Superior Township is its people. Our residents are amazing, caring, and committed to the greater good. We look out for each other, care about the environment, and strive to make our community better. Our second greatest asset is our land (Greenspace). Superior Township is a beautiful place with nature preserves, a rare commodity in an era of rapid development. My plan to help the community thrive involves elevating and promoting these
+                        <p className='text-left font-semibold xl:text-lg'>The greatest asset of Superior Township is its people. Our residents are amazing, caring, and committed to the greater good. We look out for each other, care about the environment, and strive to make our community better. Our second greatest asset is our land (Greenspace). Superior Township is a beautiful place with nature preserves, a rare commodity in an era of rapid development. My plan to help the community thrive involves elevating and promoting these
                         assets. I will:</p>
                         {/* <p className='mt-5 font-semibold'></p> */}
                         <div className='flex items-start mt-4'>
@@ -37,7 +37,7 @@ const Vision: React.FC = () => {
                     </div>
                     
                 </div>
-                <p className='mx-3  text-xl font-bold text-blue italic'>By highlighting our people and preserving our natural beauty, we can foster a thriving, connected, and vibrant community in Superior Township. We're Superior together!</p>
+                <p className='text-xl font-bold text-blue italic'>By highlighting our people and preserving our natural beauty, we can foster a thriving, connected, and vibrant community in Superior Township. We're Superior together!</p>
 
         </div>
     )

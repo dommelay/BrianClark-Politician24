@@ -7,6 +7,8 @@ import Fundraiser from './components/fundraiser';
 import Plan from './components/plan';
 import Vision from './components/vision'
 import CountOn from './components/countbrian';
+import Change from './components/change';
+import About from './components/about';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Plan/>
       <Vision/>
       <CountOn/>
+      <Change/>
+      <About/>
     </div>
   );
 }

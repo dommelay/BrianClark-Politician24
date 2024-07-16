@@ -9,6 +9,9 @@ module.exports = {
         blue: '#040273',
         grey: '#e4e4e4',
       },
+      maxWidth: {
+        '25': '25rem'
+      },
     },
   },
   plugins: [],
