@@ -10,7 +10,10 @@ module.exports = {
         grey: '#e4e4e4',
       },
       maxWidth: {
-        '25': '25rem'
+        '25': '25rem',
+      },
+      height: {
+        '512': '32rem',
       },
     },
   },

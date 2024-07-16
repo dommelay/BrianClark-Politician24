@@ -9,6 +9,7 @@ import Vision from './components/vision'
 import CountOn from './components/countbrian';
 import Change from './components/change';
 import About from './components/about';
+import PhotoCarousel from './components/photocarousel';
 
 function App() {
   return (
