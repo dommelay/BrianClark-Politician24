@@ -14,7 +14,7 @@ const Fundraiser: React.FC = () => {
                         <h1 className='italic mt-12 xl:mt-16 font-semibold text-2xl'>Wednesday July 24 | South Lyon Hotel | 6pm est </h1>
         
                     </div>
-                    <img src='/images/Dmac.jpg' alt='DMAC' className='w-1/4 h-auto'/>
+                    <img src='/images/dmcc.jpeg' alt='DMAC' className='w-1/4 h-auto'/>
                 </div>
 
                
