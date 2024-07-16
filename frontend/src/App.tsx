@@ -32,6 +32,7 @@ function App() {
       <Change/>
       <div id='about'>
         <About/>
+        <PhotoCarousel/>
       </div>
     </div>
   );

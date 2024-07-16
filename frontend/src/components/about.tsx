@@ -5,18 +5,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 const About: React.FC = () => {
-    const settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 3000,
-    };
+   
     
     return (
-        <div className='mb-32 bg-grey px-12 py-12'>
+        <div className=' bg-grey px-12 py-12'>
 
             <div className='flex flex-row justify-center xl:items-center'>
                 <div className='w-1/2 ml-4 max-w-25 md:mr-16 mr-10'>
@@ -29,16 +21,7 @@ const About: React.FC = () => {
                 </div>
             </div>
 
-            <div className='mt-8 flex flex-col items-center justify-center'>
-                <h1 className='font-bold text-6xl italic text-blue mb-4'>Meet My Family</h1>
-                <div className="flex overflow-x-auto space-x-4 p-8 h-96 md:h-512">
-                    <img src="/images/fam1.jpg" alt="family photo 1" className="w-full rounded-lg" />
-                    <img src="/images/fam2.jpg" alt="family photo 2" className="w-full rounded-lg" />
-                    <img src="/images/fam3.jpg" alt="family photo 3" className="w-full rounded-lg" />
-                    <img src="/images/fam4.jpg" alt="family photo 4" className="w-full  rounded-lg" />
-                    <img src="/images/fam5.jpg" alt="family photo 5" className="w-full  rounded-lg" />
-                </div>
-            </div>
+        
 
         </div>
     )
