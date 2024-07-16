@@ -14,7 +14,9 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Landing/>
+      <div id='landing'>
+        <Landing/>
+      </div>
       <Fundraiser/>
       <div id='purpose'>
         <Purpose/>
