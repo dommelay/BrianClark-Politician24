@@ -5,6 +5,7 @@ import Navbar from './components/navbar';
 import Purpose from './components/purpose';
 import Fundraiser from './components/fundraiser';
 import Plan from './components/plan';
+import Vision from './components/vision'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Fundraiser/>
       <Purpose/>
       <Plan/>
+      <Vision/>
     </div>
   );
 }

@@ -3,7 +3,7 @@ import React from 'react'
 const Plan: React.FC = () => {
 
     return (
-        <div className='bg-grey mb-32 px-12 py-10'>
+        <div className='bg-grey px-12 py-10'>
             <div className='flex flex-row justify-center'>
                 <h1 className='font-bold text-4xl'>My Plan:</h1>
                 <h1 className='ml-2 italic font-bold text-5xl  text-blue'>Bringing People Together</h1>
@@ -27,6 +27,7 @@ const Plan: React.FC = () => {
                     starting a business.</h1>
                 </div>
             </div>
+            <p className='font-bold mt-7 mx-6 xl:mx-12'>By leveraging local talent and resources, I aim to create vibrant, engaging community activities without straining our budget. My commitment is to build a more connected and supportive Superior Township.</p>
         </div>
     )
 }
