@@ -16,12 +16,20 @@ function App() {
       <Navbar/>
       <Landing/>
       <Fundraiser/>
-      <Purpose/>
-      <Plan/>
-      <Vision/>
+      <div id='purpose'>
+        <Purpose/>
+      </div>
+      <div id='plan'>
+        <Plan/>
+      </div>
+      <div id='vision'>
+        <Vision/>
+      </div>
       <CountOn/>
       <Change/>
-      <About/>
+      <div id='about'>
+        <About/>
+      </div>
     </div>
   );
 }

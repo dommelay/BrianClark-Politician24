@@ -11,7 +11,7 @@ const Landing: React.FC = () => {
                 <img className='w-full h-full object-cover' src='/images/landing.jpg' alt='Brian Clarks Family'/>
 
                 <div className="absolute inset-0 flex flex-col items-center text-white bg-black bg-opacity-25">
-                    <h1 className='text-5xl md:text-7xl font-bold mt-4'>Brian Clark</h1>
+                    <h1 className='text-5xl md:text-7xl font-bold mt-4 xl:mt-7'>Brian Clark</h1>
                     <h1 className='text-4xl md:text-6xl font-bold'>Superior Township Supervisor</h1>
                 </div>
 
