@@ -5,8 +5,6 @@ const Purpose: React.FC = () => {
     return (
         <div className=''>
             <div className='px-12 py-7'>
-                {/* <h1 className='uppercase font-bold text-5xl'>What is my why?</h1>
-                <h1 className='mt-1 font-bold text-blue text-3xl'>To Change the Culture in Politics</h1> */}
 
                 <div className='flex flex-row justify-center'>
                     <h1 className='font-bold text-4xl'>My Why?</h1>

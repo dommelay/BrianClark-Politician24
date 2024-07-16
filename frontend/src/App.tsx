@@ -6,6 +6,7 @@ import Purpose from './components/purpose';
 import Fundraiser from './components/fundraiser';
 import Plan from './components/plan';
 import Vision from './components/vision'
+import CountOn from './components/countbrian';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Purpose/>
       <Plan/>
       <Vision/>
+      <CountOn/>
     </div>
   );
 }
