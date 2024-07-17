@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 import {Link} from 'react-scroll';
 
 const Navbar: React.FC = () => {
-
+//bottom nav bar with Brian clark superior township 2024 for mobile view, opaque
     const [navHeight, setNavHeight] = useState<number>(64);
 
     useEffect(() => {
@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
                 <Link to="vision" smooth={true} duration={500} className="mr-2 sm:mr-4 text-white font-semibold text-base md:text-lg lg:text-xl cursor-pointer hover:underline" offset={handleOffset()}>Vision</Link>
                 <Link to="about" smooth={true} duration={500} className="mr-2 sm:mr-4 text-white font-semibold text-base md:text-lg lg:text-xl cursor-pointer hover:underline" offset={handleOffset()}>About</Link>
                 <Link to="contact" smooth={true} duration={500} className="mr-2 sm:mr-4 text-white font-semibold text-base md:text-lg lg:text-xl cursor-pointer hover:underline" offset={handleOffset()}>Contact</Link>
-                <a href='https://www.paypal.com/donate/?hosted_button_id=KNPM3W83MVMSN' target="_blank" rel="noopener noreferrer" className="mr-3 sm:mr-6 text-white font-semibold text-base md:text-lg lg:text-xl hover:underline">Donate</a>
+                <a href='https://www.paypal.com/donate/?hosted_button_id=KNPM3W83MVMSN' target="_blank" rel="noopener noreferrer" className="mr-1 sm:mr-6 text-white font-semibold text-base md:text-lg lg:text-xl hover:underline">Donate</a>
             </div>
         </div>
 

@@ -6,9 +6,9 @@ const Purpose: React.FC = () => {
         <div className=''>
             <div className='px-12 py-7'>
 
-                <div className='flex flex-row justify-center'>
-                    <h1 className='font-bold text-4xl'>My Why?</h1>
-                    <h1 className='ml-2 italic font-bold text-5xl  text-blue'>To Change the Culture in Politics</h1>
+                <div className='flex flex-col lg:flex-row lg:justify-center'>
+                    <h1 className='font-bold text-xl lg:text-4xl'>My Why?</h1>
+                    <h1 className='lg:ml-2 italic font-bold text-2xl lg:text-5xl  text-blue'>To Change the Culture in Politics</h1>
                 </div>
 
                 <div className='flex flex-row mt-6 mb-3 justify-between items-center'>
