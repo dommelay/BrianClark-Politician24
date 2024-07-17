@@ -14,8 +14,8 @@ const Change: React.FC = () => {
                     <div className='mr-8 '>
                         <p className='m-4 md:text-left font-semibold text-md lg:text-lg'>This misrepresentation undermines the trust of our residents. My mission will be to restore faith and integrity in our office, ensuring residents know we are here to serve them. To achieve this, I will:</p>
                         <div className='flex items-start mt-3'>
-                            <img className='w-6 h-auto' src='/images/check.png' alt='check mark'/>
-                            <h1 className='text-left font-semibold text-md lg:text-lg ml-2'>Promote transparency by regularly updating the community on board activities and decisions.</h1>
+                            {/* <img className='w-6 h-auto' src='/images/check.png' alt='check mark'/> */}
+                            <li className='text-left font-semibold text-md lg:text-lg ml-2'>Promote transparency by regularly updating the community on board activities and decisions.</li>
                         </div>
                         <div className='flex items-start mt-2'>
                             <img className='w-6 h-auto' src='/images/check.png' alt='check mark'/>
