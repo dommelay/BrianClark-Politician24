@@ -4,6 +4,26 @@ const CountOn: React.FC = () => {
     return (
         <div className='px-10 py-12 bg-grey'>
             <h1 className='font-bold italic text-3xl'>You can count on Brian to...</h1>
+
+            <div className='flex mt-4 items-center w-full justify-center flex-wrap'>
+            
+            <h1 className='text-blue mr-4 italic font-bold text-2xl'>Lead by example</h1>
+            <h1 className=' mr-4 font-bold text-xl'>Build you up, not tear you down</h1>
+            <h1 className='text-blue mr-4 italic font-bold text-2xl'>Be honest with you</h1>
+            <h1 className=' mr-4 font-bold text-xl'>Show up</h1>
+            <h1 className='text-blue mr-4 italic font-bold text-2xl'>Take accountability</h1>
+            <h1 className=' mr-4 font-bold text-xl'>Put the residents above myself (It’s about you)</h1>
+            <h1 className='text-blue mr-4 italic font-bold text-2xl'>Continually work on being a better me</h1>
+       
+
+         
+            <h1 className=' mr-4 font-bold text-xl'>Listen with an open mind</h1>
+            <h1 className='text-blue mr-4 italic font-bold text-2xl'>To be a serving leader</h1>
+            <h1 className=' mr-4  font-bold text-xl'>To apologize when I’m wrong and I work to make it right</h1>
+            <h1 className='text-blue mr-4 italic font-bold text-2xl'>Do everything in my power to build up, invest in, and promote our youth</h1>
+          
+
+            </div>
         </div>
     )
 }
