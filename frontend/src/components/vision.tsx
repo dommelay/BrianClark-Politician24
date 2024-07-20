@@ -13,8 +13,9 @@ const Vision: React.FC = () => {
                 <div className='my-4 flex flex-row justify-center '>
                     <img className='w-1/2 hidden lg:block'src='/images/UM.jpg' alt='Brian and Angie with University of Michigan Cheerleaders'/>
                     <div className='lg:ml-6'>
-                        <p className='text-left font-semibold xl:text-lg'>The greatest asset of Superior Township is its people. Our residents are amazing, caring, and committed to the greater good. We look out for each other, care about the environment, and strive to make our community better. Our second greatest asset is our land (Greenspace). Superior Township is a beautiful place with nature preserves, a rare commodity in an era of rapid development. My plan to help the community thrive involves elevating and promoting these
-                        assets. I will:</p>
+                        <p className='text-left text-sm font-semibold xl:text-lg'>The greatest asset of Superior Township is its people. Our residents are amazing, caring, and committed to the greater good. We look out for each other, care about the environment, and strive to make our community better. Our second greatest asset is our land (Greenspace). Superior Township is a beautiful place with nature preserves, a rare commodity in an era of rapid development. My plan to help the community thrive involves elevating and promoting these
+                        assets.</p>
+                        <p className='text-left text-sm font-semibold xl:text-lg mt-2'>To achieve this, I will:</p>
                         {/* <p className='mt-5 font-semibold'></p> */}
                         <div className='flex items-start mt-2 md:mt-4'>
                             {/* <img className='w-6 h-auto' src='/images/check.png' alt='check mark'/> */}

@@ -6,7 +6,7 @@ const Plan: React.FC = () => {
         <div className='bg-grey px-12 py-10'>
             <div className='flex flex-col lg:flex-row lg:justify-center'>
                 <h1 className='font-bold text-xl lg:text-4xl'>My Plan:</h1>
-                <h1 className='lg:ml-2 italic font-bold text-2xl lg:text-5xl  text-blue'>Bringing People Together</h1>
+                <h1 className='lg:ml-2 italic font-bold text-2xl md:text-3xl lg:text-5xl  text-blue'>Bringing People Together</h1>
             </div>
             <p className='font-semibold text-sm md:text-lg mt-3 lg:mt-7 lg:mx-6 xl:mx-12'>My primary goal is to create a culture where residents feel heard, included, and take pride in who we are! While Superior Township has ample resources, we currently lack sufficient ways to connect with each other. My superpower is bringing people together, and my vision is to foster a stronger sense of community. To achieve this, I plan to:</p>
             <div className='hidden lg:block'>

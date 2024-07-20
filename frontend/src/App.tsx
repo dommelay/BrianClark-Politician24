@@ -10,6 +10,7 @@ import CountOn from './components/countbrian';
 import Change from './components/change';
 import About from './components/about';
 import PhotoCarousel from './components/photocarousel';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
       <div id='about'>
         <About/>
         <PhotoCarousel/>
+      </div>
+      <div id='contact'>
+        <Contact/>
       </div>
     </div>
   );
