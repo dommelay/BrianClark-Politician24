@@ -11,11 +11,18 @@ const PhotoCarousel: React.FC = () => {
             <h1 className='font-bold text-3xl md:text-6xl italic text-blue mb-10'>Meet My Family</h1>
             <div className="flex overflow-x-auto space-x-4 h-64  md:h-96">
                 <img src="/images/fam1.jpg" alt="family photo 1" className="w-full rounded-lg" />
+                <img src="/images/fam13.jpg" alt="family photo 5" className="w-full  rounded-lg" />
                 <img src="/images/fam2.jpg" alt="family photo 2" className="w-full rounded-lg" />
+                <img src="/images/fam10.jpg" alt="family photo 5" className="w-full  rounded-lg" />
+                <img src="/images/fam14.jpg" alt="family photo 5" className="w-full  rounded-lg" />
                 <img src="/images/Ricefam.jpg" alt="family photo 5" className="w-full  rounded-lg" />
                 <img src="/images/fam3.jpg" alt="family photo 3" className="w-full rounded-lg" />
+                <img src="/images/fam11.jpg" alt="family photo 5" className="w-full  rounded-lg" />
                 <img src="/images/fam4.jpg" alt="family photo 4" className="w-full  rounded-lg" />
+                <img src="/images/fam12.jpg" alt="family photo 5" className="w-full  rounded-lg" />
+                <img src="/images/fam15.jpg" alt="family photo 5" className="w-full  rounded-lg" />
                 <img src="/images/fam5.jpg" alt="family photo 5" className="w-full  rounded-lg" />
+
             </div>
         </div>
       

@@ -11,6 +11,7 @@ import Change from './components/change';
 import About from './components/about';
 import PhotoCarousel from './components/photocarousel';
 import Contact from './components/contact';
+import Donate from './components/donate';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
       </div>
       <div id='contact'>
         <Contact/>
+      </div>
+      <div id='donate'>
+        <Donate/>
       </div>
     </div>
   );

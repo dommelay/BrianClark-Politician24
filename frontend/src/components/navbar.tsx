@@ -32,7 +32,8 @@ const Navbar: React.FC = () => {
                 <Link to="vision" smooth={true} duration={500} className="mr-2 sm:mr-4 text-white font-semibold text-sm md:text-lg lg:text-xl cursor-pointer hover:underline" offset={handleOffset()}>Vision</Link>
                 <Link to="about" smooth={true} duration={500} className="mr-2 sm:mr-4 text-white font-semibold text-sm md:text-lg lg:text-xl cursor-pointer hover:underline" offset={handleOffset()}>About</Link>
                 <Link to="contact" smooth={true} duration={500} className="mr-2 sm:mr-4 text-white font-semibold text-sm md:text-lg lg:text-xl cursor-pointer hover:underline" offset={handleOffset()}>Contact</Link>
-                <a href='https://www.paypal.com/donate/?hosted_button_id=KNPM3W83MVMSN' target="_blank" rel="noopener noreferrer" className="mr-1 sm:mr-6 text-white font-semibold text-sm md:text-lg lg:text-xl hover:underline">Donate</a>
+                <Link to="donate" smooth={true} duration={500} className="mr-2 sm:mr-4 text-white font-semibold text-sm md:text-lg lg:text-xl cursor-pointer hover:underline" offset={handleOffset()}>Donate</Link>
+              
             </div>
         </div>
 
