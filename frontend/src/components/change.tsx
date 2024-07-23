@@ -5,15 +5,15 @@ const Change: React.FC = () => {
     return (
         <div className='px-10 py-10'>
                 <div className='flex flex-col justify-center'>
-                    <h1 className='md:mb-2 text-blue italic font-bold text-3xl sm:text-5xl '>The Change Thats Coming:</h1>
+                    <h1 className='md:mb-2 text-blue italic font-bold text-2xl md:text-5xl sm:text-3xl '>The Change Thats Coming:</h1>
                     {/* <h1 className='md:ml-2 italic font-bold text-lg md:text-3xl lg:text-4xl  text-blue'>The divisiveness within our governing body, resulting in negative press, lawsuits, and charges against board members</h1> */}
                 </div>
 
                 <div className='sm:mt-4 xl:mt-7 flex flex-col lg:flex-row items-center'>
-                <img className='w-full px-4 lg:px-0 mt-2  lg:order-1 lg:w-1/2 ' src='/images/pray.jpg' alt='change'/>
+                <img className=' w-full sm:w-4/5 px-4 lg:px-0 mt-2  lg:order-1 lg:w-1/2 ' src='/images/pray.jpg' alt='change'/>
                     <div className='mt-3 lg:mt-0 lg:mr-8 '>
                   
-                        <p className='mb-2 text-left font-semibold text-sm md:text-base  '>The divisiveness within our governing body, resulting in negative press, lawsuits, and charges against board members. This misrepresentation undermines the trust of our residents. My mission will be to restore faith and integrity in our office, ensuring residents know we are here to serve them. </p><p className='text-left font-semibold mt-2'>To achieve this, I will:</p>
+                        <p className='mb-2 text-left font-semibold text-sm  xl:text-lg'>The divisiveness within our governing body, resulting in negative press, lawsuits, and charges against board members. This misrepresentation undermines the trust of our residents. My mission will be to restore faith and integrity in our office, ensuring residents know we are here to serve them. </p><p className='text-left xl:text-lg font-semibold mt-2 text-sm'>To achieve this, I will:</p>
                         <div className=' mt-3'>
                             {/* <img className='w-6 h-auto' src='/images/check.png' alt='check mark'/> */}
                             <li className='text-left font-semibold  lg:text-lg xl:text-xl '>Promote transparency by regularly updating the community on board activities and decisions.</li>

@@ -12,11 +12,11 @@ const Contact: React.FC = () => {
     return (
       
             <div className=' bg-blue px-8 py-6 flex items-center justify-center flex-col'>
-                <h1 className='italic block lg:hidden text-white mb-2 text-xl sm:text-3xl mr-4 '>Contact Brian</h1>
+                <h1 className='italic  text-white mb-2 text-xl sm:text-3xl mr-4 '>Contact Brian</h1>
             <div className=' flex-row  items-center  flex justify-evenly '>
-                <h1 className='italic hidden lg:block text-white text-4xl mr-4 '>Contact Brian</h1>
-                <a href='mailto:contact@brianclarkforsuperior.com' className='mr-3 text-white text-lg hidden sm:block sm:text-2xl font-semibold hover:underline '>contact@brianclarkforsuperior.com</a>
-                <a href='mailto:contact@brianclarkforsuperior.com' className='mr-3 text-white text-lg sm:text-2xl block sm:hidden font-semibold hover:underline '>Email</a>
+                {/* <h1 className='italic  text-white text-4xl mr-4 '>Contact Brian</h1> */}
+                <a href='mailto:contact@brianclarkforsuperior.com' className='mr-4 text-white text-lg hidden sm:block sm:text-2xl font-semibold hover:underline '>contact@brianclarkforsuperior.com</a>
+                <a href='mailto:contact@brianclarkforsuperior.com' className='mr-4 text-white text-lg sm:text-2xl block sm:hidden font-semibold hover:underline '>Email</a>
                 <a href='https://www.facebook.com/brian.clark.777' className='text-white text-lg sm:text-2xl font-semibold hover:underline mr-3' target='_blank'>Facebook</a>
             
             </div>
