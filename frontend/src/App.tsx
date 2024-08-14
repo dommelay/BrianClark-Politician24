@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect } from 'react';
 import './App.css';
 import Landing from './components/landing';
 import Navbar from './components/navbar';
@@ -12,15 +12,29 @@ import About from './components/about';
 import PhotoCarousel from './components/photocarousel';
 import Contact from './components/contact';
 import Donate from './components/donate';
+import Modal from './components/modal';
 
 function App() {
+
+  const [modalIsOpen, setModalIsOpen] = useState(true);
+
+  useEffect(() => {
+    setModalIsOpen(true);
+  }, []);
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+  };
+
+
   return (
     <div className="App">
       <Navbar/>
+      <Modal isOpen={modalIsOpen} onClose={closeModal} />
       <div id='landing'>
         <Landing/>
       </div>
-      <Fundraiser/>
+      {/* <Fundraiser/> */}
       <div id='purpose'>
         <Purpose/>
       </div>
